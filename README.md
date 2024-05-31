@@ -25,7 +25,7 @@ This learning journey is not just about acquiring new skills but also about push
 
 A huge thank you to **Apna College** and the amazing **Shradha Khapra** for this opportunity and for providing such a thorough and insightful curriculum. Your dedication to teaching and making complex concepts accessible is truly inspiring! 🙏🚀
 
-### 📚 Curriculum Overview:
+### 📚 Curriculum Overview which i learned:
 
 #### **HTML:**
 - 🌟 Introduction
