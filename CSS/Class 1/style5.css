@@ -1,0 +1,29 @@
+h1{
+    text-align: left;
+    border: solid;
+    width: 50;
+    text-decoration: red underline;
+    letter-spacing: 1.5;
+
+}
+h2{
+    text-align: center;
+    border: solid; 
+    width: 50;  
+    text-decoration: orange overline;
+    font: weight 400px;; 
+}  
+p{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: ;
+    font-size: 15px;
+}
+h3{
+    text-align: right;
+    border: solid;
+    width: 50;
+    text-decoration:blue line-through;
+
+}  

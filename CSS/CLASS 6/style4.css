@@ -1,0 +1,32 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    animation: colAnimation 3s ease-in 0s infinite normal;
+}
+
+@keyframes colAnimation {
+    0% {
+        background-color: greenyellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+    80% {
+        background-color: rgb(235, 12, 112);
+    }
+    100% {
+        background-color: rgb(217, 236, 13);
+    }
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
