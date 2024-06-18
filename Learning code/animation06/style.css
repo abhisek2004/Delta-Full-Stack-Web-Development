@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: #023100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "monsterrat";
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  padding: 20px 30px;
+  color: white;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.button:hover {
+  font-size: 1.8rem;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0, 0);
+  transform-origin: bottom right;
+  transition: 0.4s ease-in-out;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.button:hover::before {
+  transform: scale(1.07, 1.2);
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0, 0);
+  transform-origin: top left;
+  transition: 0.4s ease-in-out;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.button:hover::after {
+  transform: scale(1.07, 1.2);
+}
